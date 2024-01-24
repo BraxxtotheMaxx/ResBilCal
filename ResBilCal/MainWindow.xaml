@@ -1,0 +1,106 @@
+﻿<Window x:Class="ResBilCal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ResBilCal"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="Beverage" HorizontalAlignment="Left" Margin="45,99,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Beverage_SelectionChanged" Text="Beverages">
+            <ComboBoxItem Name="Soda">
+                Soda
+            </ComboBoxItem>
+            <ComboBoxItem Name="Tea">
+                Tea
+            </ComboBoxItem>
+            <ComboBoxItem Name="Coffee">
+                Coffee
+            </ComboBoxItem>
+            <ComboBoxItem Name="MinerlWater">
+                MineralWater
+            </ComboBoxItem>
+            <ComboBoxItem Name="Juice">
+                Juice
+            </ComboBoxItem>
+            <ComboBoxItem Name="Milk">
+                Milk
+            </ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="Appetizer" HorizontalAlignment="Left" Margin="45,152,0,0" VerticalAlignment="Top" Width="120" Text="Appetizer">
+            <ComboBoxItem Name="BuffaloWings">
+                Buffalo Wings
+            </ComboBoxItem>
+            <ComboBoxItem Name="Buffalofingers">
+                Buffalo Fingers
+            </ComboBoxItem>
+            <ComboBoxItem Name="PotatoSkins">
+                Potato Skins
+            </ComboBoxItem>
+            <ComboBoxItem Name="Nachos">
+                Nachos
+            </ComboBoxItem>
+            <ComboBoxItem Name="MushroomCaps">
+                Mushroom Caps
+            </ComboBoxItem>
+            <ComboBoxItem Name="ShrimpCocktail">
+                Shrimp Cocktail
+            </ComboBoxItem>
+            <ComboBoxItem Name="ChipsSalsa">
+                Chips and Salsa
+            </ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="MainCourse" HorizontalAlignment="Left" Margin="45,205,0,0" VerticalAlignment="Top" Width="120" Text="Main Course">
+            <ComboBoxItem Name="SeaAlfredo">
+                Seafood Alfredo
+            </ComboBoxItem>
+            <ComboBoxItem Name="ChickenAlfredo">
+                Chicken Alfredo
+            </ComboBoxItem>
+            <ComboBoxItem Name="ChickenPicatta">
+                Chicken Picatta
+            </ComboBoxItem>
+            <ComboBoxItem Name="TurkeyClub">
+                Turkey Club
+            </ComboBoxItem>
+            <ComboBoxItem Name="LobsterPie">
+                Lobster Pie
+            </ComboBoxItem>
+            <ComboBoxItem Name="PrimeRib">
+                Prime Rib
+            </ComboBoxItem>
+            <ComboBoxItem Name="ShrimpScampi">
+                Shrimp Scampi
+            </ComboBoxItem>
+            <ComboBoxItem Name="TurkeyDinner">
+                Turkey Dinner
+            </ComboBoxItem>
+            <ComboBoxItem Name="StuffedChicken">
+                Stuffed Chicken
+            </ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="Dessert" HorizontalAlignment="Left" Margin="45,261,0,0" VerticalAlignment="Top" Width="120" Text="Dessert">
+            <ComboBoxItem Name="ApplePie">
+                Appple Pie
+            </ComboBoxItem>
+            <ComboBoxItem Name="Sundae">
+                Sundae
+            </ComboBoxItem>
+            <ComboBoxItem Name="CarrotCake">
+                Carrot Cake
+            </ComboBoxItem>
+            <ComboBoxItem Name="MudPie">
+                Mud Pie
+            </ComboBoxItem>
+            <ComboBoxItem Name="AppleCrisp">
+                Apple Crisp
+            </ComboBoxItem>
+        </ComboBox>
+        <Label Content="+Beverages" HorizontalAlignment="Left" Margin="45,73,0,0" VerticalAlignment="Top"/>
+        <Label Content="+Appetizer" HorizontalAlignment="Left" Margin="45,126,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.105,0.352"/>
+        <Label Content="+Main Course" HorizontalAlignment="Left" Margin="45,179,0,0" VerticalAlignment="Top"/>
+        <Label Content="+Dessert" HorizontalAlignment="Left" Margin="45,235,0,0" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>
